@@ -1,0 +1,44 @@
+body {
+  background-color: green;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    background-color: pink;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .container {
+    width: 920px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
